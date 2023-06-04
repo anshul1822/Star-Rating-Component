@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star-container {
+  font-size: 40px;
+}
+
+.star-container1 {
+  font-size: 40px;
+}
+
+.star {
+  padding: 5px;
+  color: rgb(146, 142, 142);
+  cursor: pointer;
+}
+
+.star1 {
+  padding: 5px;
+  color: rgb(146, 142, 142);
+  cursor: pointer;
+}
+
+.star-filled {
+  color: #ffdf00;
+}
+
+.star-filled1 {
+  color: #ffdf00;
+}
+
+.star-half:after {
+  content: "\2605";
+  color: gold;
+  position: absolute;
+  margin-left: -33px;
+  width: 16px;
+  overflow: hidden;
+}
